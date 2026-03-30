@@ -100,6 +100,42 @@ CHR_IMAGES_V7 = [
     "chr-{version}-arm64.vdi.zip",     # VDI (arm64)
 ]
 
+# SwitchOS firmware — two variants: SwitchOS (swos/) and SwitchOS Lite (swoslite/)
+# Each entry: (base_path, board_slug, version, extension)
+SWITCHOS_FIRMWARE = [
+    # SwitchOS (original) — /swos/
+    ("swos", "rb250",     "1.17", "lzb"),   # RB250GS
+    ("swos", "rb260",     "1.17", "lzb"),   # RB260GS, RB260GSP
+    ("swos", "css106",    "2.18", "bin"),   # new RB260GS(CSS106-5G-1S), new RB260GSP(CSS106-1G-4P-1S)
+    ("swos", "css305",    "2.18", "bin"),   # CRS305-1G-4S+
+    ("swos", "css305r2",  "2.18", "bin"),   # CRS305-1G-4S+OUT
+    ("swos", "css309",    "2.18", "bin"),   # CRS309-1G-8S+
+    ("swos", "css310",    "2.18", "bin"),   # CRS310-1G-5S-4S+IN, CRS310-1G-5S-4S+OUT
+    ("swos", "css310g",   "2.18", "bin"),   # CRS310-8G+2S+IN
+    ("swos", "css312",    "2.18", "bin"),   # CRS312-4C+8XG
+    ("swos", "css317",    "2.18", "bin"),   # CRS317-1G-16S+
+    ("swos", "css318fi",  "2.18", "bin"),   # CRS318-1Fi-15Fr-2S
+    ("swos", "css318g",   "2.18", "bin"),   # CSS318-16G-2S+IN
+    ("swos", "css318p",   "2.18", "bin"),   # CRS318-16P-2S+
+    ("swos", "css320p",   "2.18", "bin"),   # CRS320-8P-8B-4S+RM
+    ("swos", "css326",    "2.18", "bin"),   # CRS326-24G-2S+, CSS326-24G-2S+
+    ("swos", "css326q",   "2.18", "bin"),   # CRS326-24S+2Q+
+    ("swos", "css326xg",  "2.18", "bin"),   # CRS326-4C+20G+2Q+RM
+    ("swos", "css328",    "2.18", "bin"),   # CRS328-4C-20S-4S+
+    ("swos", "css328p",   "2.18", "bin"),   # CRS328-24P-4S+
+    ("swos", "css354",    "2.18", "bin"),   # CRS354-48G-4S+2Q+, CRS354-48P-4S+2Q+
+    # SwitchOS Lite — /swoslite/
+    ("swoslite", "css606",    "2.21", "bin"),   # CSS606-1G-2Gi-3S+OUT
+    ("swoslite", "css610",    "2.21", "bin"),   # netPower Lite 7R (CSS610-1Gi-7R-2S+)
+    ("swoslite", "css610g",   "2.21", "bin"),   # CSS610-8G-2S+
+    ("swoslite", "css610out", "2.21", "bin"),   # CSS610-8P-2S+OUT
+    ("swoslite", "css610pi",  "2.21", "bin"),   # CSS610-8P-2S+IN
+    ("swoslite", "gpen21",    "2.21", "bin"),   # GPEN21
+    ("swoslite", "ftc11xg",   "2.21", "bin"),   # FTC11XG
+    ("swoslite", "ftc21",     "2.21", "bin"),   # FTC21
+    ("swoslite", "gper14i",   "2.21", "bin"),   # GPER14i
+]
+
 # WinBox management tool (separate versioning)
 WINBOX_VERSION = "4.0.1"
 WINBOX_FILES = [
@@ -236,6 +272,18 @@ def build_winbox_list() -> list[str]:
     return files_with_sha
 
 
+def build_switchos_queue(output_dir: Path) -> list[tuple[str, Path]]:
+    """Build download queue for all SwitchOS firmware files."""
+    base = "https://download.mikrotik.com"
+    queue = []
+    for base_path, slug, version, ext in SWITCHOS_FIRMWARE:
+        filename = f"swos-{slug}-{version}.{ext}"
+        url = f"{base}/{base_path}/{version}/{filename}"
+        dest = output_dir / base_path / version / filename
+        queue.append((url, dest))
+    return queue
+
+
 def download_file(url: str, dest: Path, dry_run: bool = False) -> tuple[str, bool, str]:
     """Download a single file. Returns (url, success, message)."""
     if dest.exists():
@@ -302,6 +350,7 @@ def main():
     parser.add_argument("--no-tools", action="store_true", help="Skip tools, only download packages")
     parser.add_argument("--no-chr", action="store_true", help="Skip CHR virtual machine images")
     parser.add_argument("--no-winbox", action="store_true", help="Skip WinBox downloads")
+    parser.add_argument("--no-switchos", action="store_true", help="Skip SwitchOS firmware downloads")
     parser.add_argument("--generate-index", action="store_true", help="Generate index.json manifest")
     parser.add_argument("--auto-discover", action="store_true", help="Auto-discover versions from mikrotik.com")
     parser.add_argument("--retry", type=int, default=0, help="Retry failed/corrupt downloads N times")
@@ -367,6 +416,10 @@ def main():
             url = f"{BASE_URL}/winbox/{WINBOX_VERSION}/{filename}"
             dest = output_dir / "winbox" / WINBOX_VERSION / filename
             queue.append((url, dest))
+
+    if not args.no_switchos:
+        # SwitchOS firmware (separate base URLs per variant)
+        queue.extend(build_switchos_queue(output_dir))
 
     total = len(queue)
     print(f"MikroTik RouterOS Mirror")

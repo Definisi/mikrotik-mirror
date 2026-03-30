@@ -12,6 +12,7 @@ Why run your own mirror? If you manage dozens (or hundreds) of MikroTik devices,
 | Install images | `.iso`, `.zip` (IMG) |
 | Extra packages | container, dude, iot, wireless, zerotier, and more |
 | All-in-one bundles | `all_packages-arm64-7.20.8.zip` |
+| SwitchOS | Firmware for all 29 switch models (SwitchOS + SwitchOS Lite) |
 | CHR images | RAW disk, OVA, VDI, VHD, VHDX, VMDK (x86 + arm64) |
 | WinBox | macOS, Linux, Windows (v4.0.1) |
 | Tools | Netinstall (Win64/Win32/Linux), The Dude, Bandwidth Test, FlashFig |
@@ -79,6 +80,7 @@ python mirror.py --no-tools
 | `--no-tools` | Skip tools, download packages only | off |
 | `--no-chr` | Skip CHR virtual machine images | off |
 | `--no-winbox` | Skip WinBox downloads | off |
+| `--no-switchos` | Skip SwitchOS firmware downloads | off |
 
 ## Automated sync with GitHub Actions
 
@@ -122,6 +124,20 @@ downloads/
       WinBox.dmg
       WinBox_Linux.zip
       WinBox_Windows.zip
+  swos/                               # SwitchOS (original)
+    1.17/
+      swos-rb250-1.17.lzb
+      swos-rb260-1.17.lzb
+    2.18/
+      swos-css106-2.18.bin
+      swos-css305-2.18.bin
+      swos-css326-2.18.bin
+      ...
+  swoslite/                           # SwitchOS Lite
+    2.21/
+      swos-css610g-2.21.bin
+      swos-gpen21-2.21.bin
+      ...
   index.json          # generated with --generate-index
 ```
 
