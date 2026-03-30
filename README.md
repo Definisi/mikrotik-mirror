@@ -12,6 +12,8 @@ Why run your own mirror? If you manage dozens (or hundreds) of MikroTik devices,
 | Install images | `.iso`, `.zip` (IMG) |
 | Extra packages | container, dude, iot, wireless, zerotier, and more |
 | All-in-one bundles | `all_packages-arm64-7.20.8.zip` |
+| CHR images | RAW disk, OVA, VDI, VHD, VHDX, VMDK (x86 + arm64) |
+| WinBox | macOS, Linux, Windows (v4.0.1) |
 | Tools | Netinstall (Win64/Win32/Linux), The Dude, Bandwidth Test, FlashFig |
 | Checksums | `.sha256` for every file above |
 
@@ -75,6 +77,8 @@ python mirror.py --no-tools
 | `--generate-index` | Write `downloads/index.json` with file sizes | off |
 | `--tools-only` | Only download tools (Netinstall, Dude, etc.) | off |
 | `--no-tools` | Skip tools, download packages only | off |
+| `--no-chr` | Skip CHR virtual machine images | off |
+| `--no-winbox` | Skip WinBox downloads | off |
 
 ## Automated sync with GitHub Actions
 
@@ -103,14 +107,21 @@ downloads/
       container-7.20.8-arm64.npk
       wireless-7.20.8-arm64.npk
       all_packages-arm64-7.20.8.zip
+      chr-7.20.8.img.zip              # CHR images
+      chr-7.20.8.ova
+      chr-7.20.8.vmdk.zip
+      chr-7.20.8-arm64.img.zip
       netinstall64-7.20.8.zip
       dude-install-7.20.8.exe
       btest.exe
       ...
     7.20.7/
       ...
-    6.49.19/
-      ...
+  winbox/
+    4.0.1/
+      WinBox.dmg
+      WinBox_Linux.zip
+      WinBox_Windows.zip
   index.json          # generated with --generate-index
 ```
 

@@ -1,6 +1,10 @@
 name: Sync MikroTik Mirror
 
 on:
+  push:
+    paths:
+      - "mirror.py"
+      - ".github/workflows/sync.yml"
   schedule:
     # Run every 6 hours
     - cron: "0 */6 * * *"

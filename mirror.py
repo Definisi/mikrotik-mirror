@@ -88,6 +88,26 @@ PACKAGES_V6 = [
     "zerotier",
 ]
 
+# CHR (Cloud Hosted Router) virtual machine images
+CHR_IMAGES_V7 = [
+    "chr-{version}.img.zip",           # RAW disk (x86)
+    "chr-{version}.ova",               # OVA (VMware/VirtualBox)
+    "chr-{version}.vdi.zip",           # VDI (VirtualBox)
+    "chr-{version}.vhd.zip",           # VHD (Hyper-V/VirtualPC)
+    "chr-{version}.vhdx.zip",          # VHDX (Hyper-V)
+    "chr-{version}.vmdk.zip",          # VMDK (VMware)
+    "chr-{version}-arm64.img.zip",     # RAW disk (arm64)
+    "chr-{version}-arm64.vdi.zip",     # VDI (arm64)
+]
+
+# WinBox management tool (separate versioning)
+WINBOX_VERSION = "4.0.1"
+WINBOX_FILES = [
+    "WinBox.dmg",
+    "WinBox_Linux.zip",
+    "WinBox_Windows.zip",
+]
+
 # Tools that are version-specific but architecture-independent
 TOOLS_VERSIONED = [
     "netinstall64-{version}.zip",
@@ -193,6 +213,29 @@ def build_tools_list(version: str) -> list[str]:
     return files_with_sha
 
 
+def build_chr_list(version: str) -> list[str]:
+    """Build list of CHR image filenames for a given version."""
+    templates = CHR_IMAGES_V7 if is_v7(version) else []
+    files = [t.format(version=version) for t in templates]
+
+    files_with_sha = []
+    for f in files:
+        files_with_sha.append(f)
+        files_with_sha.append(f"{f}.sha256")
+
+    return files_with_sha
+
+
+def build_winbox_list() -> list[str]:
+    """Build list of WinBox filenames."""
+    files_with_sha = []
+    for f in WINBOX_FILES:
+        files_with_sha.append(f)
+        files_with_sha.append(f"{f}.sha256")
+
+    return files_with_sha
+
+
 def download_file(url: str, dest: Path, dry_run: bool = False) -> tuple[str, bool, str]:
     """Download a single file. Returns (url, success, message)."""
     if dest.exists():
@@ -257,6 +300,8 @@ def main():
     parser.add_argument("--verify", action="store_true", help="Verify SHA256 checksums after download")
     parser.add_argument("--tools-only", action="store_true", help="Only download tools (netinstall, dude, etc.)")
     parser.add_argument("--no-tools", action="store_true", help="Skip tools, only download packages")
+    parser.add_argument("--no-chr", action="store_true", help="Skip CHR virtual machine images")
+    parser.add_argument("--no-winbox", action="store_true", help="Skip WinBox downloads")
     parser.add_argument("--generate-index", action="store_true", help="Generate index.json manifest")
     parser.add_argument("--auto-discover", action="store_true", help="Auto-discover versions from mikrotik.com")
     parser.add_argument("--retry", type=int, default=0, help="Retry failed/corrupt downloads N times")
@@ -305,6 +350,23 @@ def main():
                     url = f"{BASE_URL}/{version}/{filename}"
                     dest = output_dir / "routeros" / version / filename
                     queue.append((url, dest))
+
+    if not args.no_chr:
+        # CHR images per version
+        for version in versions:
+            chr_files = build_chr_list(version)
+            for filename in chr_files:
+                url = f"{BASE_URL}/{version}/{filename}"
+                dest = output_dir / "routeros" / version / filename
+                queue.append((url, dest))
+
+    if not args.no_winbox:
+        # WinBox (separate version path)
+        winbox_files = build_winbox_list()
+        for filename in winbox_files:
+            url = f"{BASE_URL}/winbox/{WINBOX_VERSION}/{filename}"
+            dest = output_dir / "winbox" / WINBOX_VERSION / filename
+            queue.append((url, dest))
 
     total = len(queue)
     print(f"MikroTik RouterOS Mirror")
