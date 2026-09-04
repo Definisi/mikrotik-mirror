@@ -1,6 +1,359 @@
 {
-  "generated": "2026-09-04T11:04:13Z",
+  "generated": "2026-09-04T16:21:09Z",
   "versions": {
+    "7.23.5": {
+      "files": {
+        "all_packages-arm-7.23.5.zip": {
+          "size": 28873767
+        },
+        "all_packages-arm64-7.23.5.zip": {
+          "size": 51643493
+        },
+        "all_packages-mipsbe-7.23.5.zip": {
+          "size": 2902426
+        },
+        "all_packages-mmips-7.23.5.zip": {
+          "size": 4020915
+        },
+        "all_packages-ppc-7.23.5.zip": {
+          "size": 4110698
+        },
+        "all_packages-smips-7.23.5.zip": {
+          "size": 943023
+        },
+        "all_packages-tile-7.23.5.zip": {
+          "size": 10402776
+        },
+        "all_packages-x86-7.23.5.zip": {
+          "size": 10321051
+        },
+        "btest.exe": {
+          "size": 560472
+        },
+        "calea-7.23.5-arm.npk": {
+          "size": 24721
+        },
+        "calea-7.23.5-arm64.npk": {
+          "size": 24721
+        },
+        "calea-7.23.5-mipsbe.npk": {
+          "size": 20625
+        },
+        "calea-7.23.5-mmips.npk": {
+          "size": 20625
+        },
+        "calea-7.23.5-ppc.npk": {
+          "size": 24721
+        },
+        "calea-7.23.5-tile.npk": {
+          "size": 90257
+        },
+        "calea-7.23.5.npk": {
+          "size": 24721
+        },
+        "chr-7.23.5-arm64.img.zip": {
+          "size": 19159531
+        },
+        "chr-7.23.5-arm64.vdi.zip": {
+          "size": 19061502
+        },
+        "chr-7.23.5.img.zip": {
+          "size": 44997328
+        },
+        "chr-7.23.5.ova": {
+          "size": 45341184
+        },
+        "chr-7.23.5.vdi.zip": {
+          "size": 44911914
+        },
+        "chr-7.23.5.vhd.zip": {
+          "size": 44997417
+        },
+        "chr-7.23.5.vhdx.zip": {
+          "size": 44939742
+        },
+        "chr-7.23.5.vmdk.zip": {
+          "size": 44903034
+        },
+        "container-7.23.5-arm.npk": {
+          "size": 286865
+        },
+        "container-7.23.5-arm64.npk": {
+          "size": 1142929
+        },
+        "container-7.23.5.npk": {
+          "size": 1126545
+        },
+        "dude-7.23.5-arm.npk": {
+          "size": 1249425
+        },
+        "dude-7.23.5-arm64.npk": {
+          "size": 1249425
+        },
+        "dude-7.23.5-mmips.npk": {
+          "size": 1364113
+        },
+        "dude-7.23.5-tile.npk": {
+          "size": 1663121
+        },
+        "dude-7.23.5.npk": {
+          "size": 1425553
+        },
+        "dude-install-7.23.5.exe": {
+          "size": 2263112
+        },
+        "extra-nic-7.23.5-arm64.npk": {
+          "size": 2441361
+        },
+        "flashfig.exe": {
+          "size": 546648
+        },
+        "gps-7.23.5-arm.npk": {
+          "size": 24721
+        },
+        "gps-7.23.5-arm64.npk": {
+          "size": 24721
+        },
+        "gps-7.23.5-mipsbe.npk": {
+          "size": 24721
+        },
+        "gps-7.23.5-mmips.npk": {
+          "size": 24721
+        },
+        "gps-7.23.5-ppc.npk": {
+          "size": 24721
+        },
+        "gps-7.23.5-tile.npk": {
+          "size": 90257
+        },
+        "gps-7.23.5.npk": {
+          "size": 24721
+        },
+        "install-image-7.23.5.zip": {
+          "size": 34694578
+        },
+        "iot-7.23.5-arm.npk": {
+          "size": 835729
+        },
+        "iot-7.23.5-arm64.npk": {
+          "size": 938129
+        },
+        "iot-7.23.5-mipsbe.npk": {
+          "size": 807057
+        },
+        "iot-7.23.5-mmips.npk": {
+          "size": 557201
+        },
+        "iot-7.23.5-ppc.npk": {
+          "size": 589969
+        },
+        "iot-7.23.5-tile.npk": {
+          "size": 749713
+        },
+        "iot-7.23.5.npk": {
+          "size": 594065
+        },
+        "iot-bt-extra-7.23.5-arm.npk": {
+          "size": 438417
+        },
+        "iot-bt-extra-7.23.5-arm64.npk": {
+          "size": 450705
+        },
+        "mikrotik-7.23.5-arm64.iso": {
+          "size": 75886592
+        },
+        "mikrotik-7.23.5.iso": {
+          "size": 71309312
+        },
+        "mikrotik.mib": {
+          "size": 116061
+        },
+        "netinstall-7.23.5.tar.gz": {
+          "size": 45500679
+        },
+        "netinstall-7.23.5.zip": {
+          "size": 38019458
+        },
+        "netinstall64-7.23.5.zip": {
+          "size": 38054250
+        },
+        "openflow-7.23.5-arm.npk": {
+          "size": 77969
+        },
+        "openflow-7.23.5-arm64.npk": {
+          "size": 82065
+        },
+        "openflow-7.23.5-mipsbe.npk": {
+          "size": 77969
+        },
+        "openflow-7.23.5-mmips.npk": {
+          "size": 77969
+        },
+        "openflow-7.23.5-ppc.npk": {
+          "size": 94353
+        },
+        "openflow-7.23.5-smips.npk": {
+          "size": 0
+        },
+        "openflow-7.23.5-tile.npk": {
+          "size": 176273
+        },
+        "openflow-7.23.5.npk": {
+          "size": 82065
+        },
+        "rose-storage-7.23.5-arm.npk": {
+          "size": 4358289
+        },
+        "rose-storage-7.23.5-arm64.npk": {
+          "size": 4522129
+        },
+        "rose-storage-7.23.5-tile.npk": {
+          "size": 5148817
+        },
+        "rose-storage-7.23.5.npk": {
+          "size": 5247121
+        },
+        "routeros-7.23.5-arm.npk": {
+          "size": 12278618
+        },
+        "routeros-7.23.5-arm64.npk": {
+          "size": 13884797
+        },
+        "routeros-7.23.5-mipsbe.npk": {
+          "size": 11422912
+        },
+        "routeros-7.23.5-mmips.npk": {
+          "size": 10732963
+        },
+        "routeros-7.23.5-ppc.npk": {
+          "size": 22074869
+        },
+        "routeros-7.23.5-smips.npk": {
+          "size": 7195800
+        },
+        "routeros-7.23.5-tile.npk": {
+          "size": 16883037
+        },
+        "routeros-7.23.5.npk": {
+          "size": 20767628
+        },
+        "switch-marvell-7.23.5-arm64.npk": {
+          "size": 9265297
+        },
+        "tr069-client-7.23.5-arm.npk": {
+          "size": 123025
+        },
+        "tr069-client-7.23.5-arm64.npk": {
+          "size": 123025
+        },
+        "tr069-client-7.23.5-mipsbe.npk": {
+          "size": 123025
+        },
+        "tr069-client-7.23.5-mmips.npk": {
+          "size": 127121
+        },
+        "tr069-client-7.23.5-ppc.npk": {
+          "size": 151697
+        },
+        "tr069-client-7.23.5-smips.npk": {
+          "size": 123025
+        },
+        "tr069-client-7.23.5-tile.npk": {
+          "size": 254097
+        },
+        "tr069-client-7.23.5.npk": {
+          "size": 163985
+        },
+        "ups-7.23.5-arm.npk": {
+          "size": 49297
+        },
+        "ups-7.23.5-arm64.npk": {
+          "size": 32913
+        },
+        "ups-7.23.5-mipsbe.npk": {
+          "size": 45201
+        },
+        "ups-7.23.5-mmips.npk": {
+          "size": 45201
+        },
+        "ups-7.23.5-ppc.npk": {
+          "size": 37009
+        },
+        "ups-7.23.5-tile.npk": {
+          "size": 123025
+        },
+        "ups-7.23.5.npk": {
+          "size": 37009
+        },
+        "user-manager-7.23.5-arm.npk": {
+          "size": 344209
+        },
+        "user-manager-7.23.5-arm64.npk": {
+          "size": 344209
+        },
+        "user-manager-7.23.5-mipsbe.npk": {
+          "size": 381073
+        },
+        "user-manager-7.23.5-mmips.npk": {
+          "size": 381073
+        },
+        "user-manager-7.23.5-ppc.npk": {
+          "size": 401553
+        },
+        "user-manager-7.23.5-tile.npk": {
+          "size": 577681
+        },
+        "user-manager-7.23.5.npk": {
+          "size": 422033
+        },
+        "wifi-qcom-7.23.5-arm.npk": {
+          "size": 9810065
+        },
+        "wifi-qcom-7.23.5-arm64.npk": {
+          "size": 12689553
+        },
+        "wireless-7.23.5-arm.npk": {
+          "size": 1884305
+        },
+        "wireless-7.23.5-arm64.npk": {
+          "size": 872593
+        },
+        "wireless-7.23.5-mipsbe.npk": {
+          "size": 1421457
+        },
+        "wireless-7.23.5-mmips.npk": {
+          "size": 1421457
+        },
+        "wireless-7.23.5-ppc.npk": {
+          "size": 2785425
+        },
+        "wireless-7.23.5-smips.npk": {
+          "size": 684177
+        },
+        "wireless-7.23.5-tile.npk": {
+          "size": 1527953
+        },
+        "wireless-7.23.5.npk": {
+          "size": 1171601
+        },
+        "zerotier-7.23.5-arm.npk": {
+          "size": 770193
+        },
+        "zerotier-7.23.5-arm64.npk": {
+          "size": 868497
+        }
+      },
+      "architectures": [
+        "arm64",
+        "arm",
+        "mipsbe",
+        "mmips",
+        "ppc",
+        "smips",
+        "tile",
+        "x86"
+      ]
+    },
     "7.23.4": {
       "files": {
         "all_packages-arm-7.23.4.zip": {
@@ -1399,350 +1752,6 @@
           "size": 762001
         },
         "zerotier-7.20.8-arm64.npk": {
-          "size": 856209
-        }
-      },
-      "architectures": [
-        "arm64",
-        "arm",
-        "mipsbe",
-        "mmips",
-        "ppc",
-        "smips",
-        "tile",
-        "x86"
-      ]
-    },
-    "7.20.7": {
-      "files": {
-        "all_packages-arm-7.20.7.zip": {
-          "size": 27132656
-        },
-        "all_packages-arm64-7.20.7.zip": {
-          "size": 30589740
-        },
-        "all_packages-mipsbe-7.20.7.zip": {
-          "size": 4819651
-        },
-        "all_packages-mmips-7.20.7.zip": {
-          "size": 4008627
-        },
-        "all_packages-ppc-7.20.7.zip": {
-          "size": 4073834
-        },
-        "all_packages-smips-7.20.7.zip": {
-          "size": 951215
-        },
-        "all_packages-tile-7.20.7.zip": {
-          "size": 9751512
-        },
-        "all_packages-x86-7.20.7.zip": {
-          "size": 7679131
-        },
-        "calea-7.20.7-arm.npk": {
-          "size": 20625
-        },
-        "calea-7.20.7-arm64.npk": {
-          "size": 20625
-        },
-        "calea-7.20.7-mipsbe.npk": {
-          "size": 20625
-        },
-        "calea-7.20.7-mmips.npk": {
-          "size": 20625
-        },
-        "calea-7.20.7-ppc.npk": {
-          "size": 24721
-        },
-        "calea-7.20.7-tile.npk": {
-          "size": 90257
-        },
-        "calea-7.20.7.npk": {
-          "size": 24721
-        },
-        "chr-7.20.7-arm64.img.zip": {
-          "size": 18221355
-        },
-        "chr-7.20.7-arm64.vdi.zip": {
-          "size": 18122993
-        },
-        "chr-7.20.7.img.zip": {
-          "size": 43532283
-        },
-        "chr-7.20.7.ova": {
-          "size": 43867648
-        },
-        "chr-7.20.7.vdi.zip": {
-          "size": 43449601
-        },
-        "chr-7.20.7.vhd.zip": {
-          "size": 43532368
-        },
-        "chr-7.20.7.vhdx.zip": {
-          "size": 43476229
-        },
-        "chr-7.20.7.vmdk.zip": {
-          "size": 43438508
-        },
-        "container-7.20.7-arm.npk": {
-          "size": 139409
-        },
-        "container-7.20.7-arm64.npk": {
-          "size": 213137
-        },
-        "container-7.20.7.npk": {
-          "size": 176273
-        },
-        "dude-7.20.7-arm.npk": {
-          "size": 1253521
-        },
-        "dude-7.20.7-arm64.npk": {
-          "size": 1253521
-        },
-        "dude-7.20.7-mmips.npk": {
-          "size": 1368209
-        },
-        "dude-7.20.7-tile.npk": {
-          "size": 1663121
-        },
-        "dude-7.20.7.npk": {
-          "size": 1429649
-        },
-        "dude-install-7.20.7.exe": {
-          "size": 2263352
-        },
-        "extra-nic-7.20.7-arm64.npk": {
-          "size": 2441361
-        },
-        "gps-7.20.7-arm.npk": {
-          "size": 24721
-        },
-        "gps-7.20.7-arm64.npk": {
-          "size": 24721
-        },
-        "gps-7.20.7-mipsbe.npk": {
-          "size": 24721
-        },
-        "gps-7.20.7-mmips.npk": {
-          "size": 24721
-        },
-        "gps-7.20.7-ppc.npk": {
-          "size": 24721
-        },
-        "gps-7.20.7-tile.npk": {
-          "size": 90257
-        },
-        "gps-7.20.7.npk": {
-          "size": 24721
-        },
-        "install-image-7.20.7.zip": {
-          "size": 31170869
-        },
-        "iot-7.20.7-arm.npk": {
-          "size": 729233
-        },
-        "iot-7.20.7-arm64.npk": {
-          "size": 725137
-        },
-        "iot-7.20.7-mipsbe.npk": {
-          "size": 729233
-        },
-        "iot-7.20.7-mmips.npk": {
-          "size": 528529
-        },
-        "iot-7.20.7-ppc.npk": {
-          "size": 553105
-        },
-        "iot-7.20.7-tile.npk": {
-          "size": 704657
-        },
-        "iot-7.20.7.npk": {
-          "size": 561297
-        },
-        "iot-bt-extra-7.20.7-arm.npk": {
-          "size": 438417
-        },
-        "iot-bt-extra-7.20.7-arm64.npk": {
-          "size": 450705
-        },
-        "mikrotik-7.20.7-arm64.iso": {
-          "size": 70819840
-        },
-        "mikrotik-7.20.7.iso": {
-          "size": 67774464
-        },
-        "netinstall-7.20.7.tar.gz": {
-          "size": 60058725
-        },
-        "netinstall-7.20.7.zip": {
-          "size": 52841626
-        },
-        "netinstall64-7.20.7.zip": {
-          "size": 52877085
-        },
-        "openflow-7.20.7-arm.npk": {
-          "size": 77969
-        },
-        "openflow-7.20.7-arm64.npk": {
-          "size": 82065
-        },
-        "openflow-7.20.7-mipsbe.npk": {
-          "size": 77969
-        },
-        "openflow-7.20.7-mmips.npk": {
-          "size": 77969
-        },
-        "openflow-7.20.7-ppc.npk": {
-          "size": 94353
-        },
-        "openflow-7.20.7-smips.npk": {
-          "size": 0
-        },
-        "openflow-7.20.7-tile.npk": {
-          "size": 176273
-        },
-        "openflow-7.20.7.npk": {
-          "size": 82065
-        },
-        "rose-storage-7.20.7-arm.npk": {
-          "size": 3059857
-        },
-        "rose-storage-7.20.7-arm64.npk": {
-          "size": 3215505
-        },
-        "rose-storage-7.20.7-tile.npk": {
-          "size": 4538513
-        },
-        "rose-storage-7.20.7.npk": {
-          "size": 3584145
-        },
-        "routeros-7.20.7-arm.npk": {
-          "size": 12109999
-        },
-        "routeros-7.20.7-arm64.npk": {
-          "size": 13221140
-        },
-        "routeros-7.20.7-mipsbe.npk": {
-          "size": 11211084
-        },
-        "routeros-7.20.7-mmips.npk": {
-          "size": 10519547
-        },
-        "routeros-7.20.7-ppc.npk": {
-          "size": 21793536
-        },
-        "routeros-7.20.7-smips.npk": {
-          "size": 7229747
-        },
-        "routeros-7.20.7-tile.npk": {
-          "size": 16556364
-        },
-        "routeros-7.20.7.npk": {
-          "size": 20050803
-        },
-        "switch-marvell-7.20.7-arm64.npk": {
-          "size": 9183377
-        },
-        "tr069-client-7.20.7-arm.npk": {
-          "size": 139409
-        },
-        "tr069-client-7.20.7-arm64.npk": {
-          "size": 139409
-        },
-        "tr069-client-7.20.7-mipsbe.npk": {
-          "size": 123025
-        },
-        "tr069-client-7.20.7-mmips.npk": {
-          "size": 127121
-        },
-        "tr069-client-7.20.7-ppc.npk": {
-          "size": 151697
-        },
-        "tr069-client-7.20.7-smips.npk": {
-          "size": 123025
-        },
-        "tr069-client-7.20.7-tile.npk": {
-          "size": 254097
-        },
-        "tr069-client-7.20.7.npk": {
-          "size": 163985
-        },
-        "ups-7.20.7-arm.npk": {
-          "size": 45201
-        },
-        "ups-7.20.7-arm64.npk": {
-          "size": 37009
-        },
-        "ups-7.20.7-mipsbe.npk": {
-          "size": 45201
-        },
-        "ups-7.20.7-mmips.npk": {
-          "size": 45201
-        },
-        "ups-7.20.7-ppc.npk": {
-          "size": 37009
-        },
-        "ups-7.20.7-tile.npk": {
-          "size": 123025
-        },
-        "ups-7.20.7.npk": {
-          "size": 37009
-        },
-        "user-manager-7.20.7-arm.npk": {
-          "size": 344209
-        },
-        "user-manager-7.20.7-arm64.npk": {
-          "size": 344209
-        },
-        "user-manager-7.20.7-mipsbe.npk": {
-          "size": 376977
-        },
-        "user-manager-7.20.7-mmips.npk": {
-          "size": 381073
-        },
-        "user-manager-7.20.7-ppc.npk": {
-          "size": 397457
-        },
-        "user-manager-7.20.7-tile.npk": {
-          "size": 573585
-        },
-        "user-manager-7.20.7.npk": {
-          "size": 417937
-        },
-        "wifi-qcom-7.20.7-arm.npk": {
-          "size": 9756817
-        },
-        "wifi-qcom-7.20.7-arm64.npk": {
-          "size": 10715281
-        },
-        "wireless-7.20.7-arm.npk": {
-          "size": 1892497
-        },
-        "wireless-7.20.7-arm64.npk": {
-          "size": 884881
-        },
-        "wireless-7.20.7-mipsbe.npk": {
-          "size": 1429649
-        },
-        "wireless-7.20.7-mmips.npk": {
-          "size": 1433745
-        },
-        "wireless-7.20.7-ppc.npk": {
-          "size": 2789521
-        },
-        "wireless-7.20.7-smips.npk": {
-          "size": 692369
-        },
-        "wireless-7.20.7-tile.npk": {
-          "size": 1536145
-        },
-        "wireless-7.20.7.npk": {
-          "size": 1175697
-        },
-        "zerotier-7.20.7-arm.npk": {
-          "size": 762001
-        },
-        "zerotier-7.20.7-arm64.npk": {
           "size": 856209
         }
       },
