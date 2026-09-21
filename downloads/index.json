@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T04:35:00Z",
+  "generated": "2026-09-21T12:42:32Z",
   "versions": {
     "7.23.7": {
       "files": {
@@ -1753,6 +1753,548 @@
         },
         "zerotier-7.21.5-arm64.npk": {
           "size": 856209
+        }
+      },
+      "architectures": [
+        "arm64",
+        "arm",
+        "mipsbe",
+        "mmips",
+        "ppc",
+        "smips",
+        "tile",
+        "x86"
+      ]
+    },
+    "6.49.22": {
+      "files": {
+        "advanced-tools-6.49.22-arm.npk": {
+          "size": 102545
+        },
+        "advanced-tools-6.49.22-arm64.npk": {
+          "size": 102545
+        },
+        "advanced-tools-6.49.22-mipsbe.npk": {
+          "size": 102545
+        },
+        "advanced-tools-6.49.22-mmips.npk": {
+          "size": 69777
+        },
+        "advanced-tools-6.49.22-ppc.npk": {
+          "size": 102545
+        },
+        "advanced-tools-6.49.22-smips.npk": {
+          "size": 69777
+        },
+        "advanced-tools-6.49.22-tile.npk": {
+          "size": 196753
+        },
+        "advanced-tools-6.49.22.npk": {
+          "size": 295777
+        },
+        "all_packages-arm-6.49.22.zip": {
+          "size": 16174887
+        },
+        "all_packages-arm64-6.49.22.zip": {
+          "size": 15888251
+        },
+        "all_packages-mipsbe-6.49.22.zip": {
+          "size": 16622122
+        },
+        "all_packages-mmips-6.49.22.zip": {
+          "size": 13778360
+        },
+        "all_packages-ppc-6.49.22.zip": {
+          "size": 19969229
+        },
+        "all_packages-smips-6.49.22.zip": {
+          "size": 7858334
+        },
+        "all_packages-tile-6.49.22.zip": {
+          "size": 23117815
+        },
+        "all_packages-x86-6.49.22.zip": {
+          "size": 25860648
+        },
+        "calea-6.49.22-arm.npk": {
+          "size": 20625
+        },
+        "calea-6.49.22-arm64.npk": {
+          "size": 20625
+        },
+        "calea-6.49.22-mipsbe.npk": {
+          "size": 20625
+        },
+        "calea-6.49.22-mmips.npk": {
+          "size": 20625
+        },
+        "calea-6.49.22-ppc.npk": {
+          "size": 20625
+        },
+        "calea-6.49.22-tile.npk": {
+          "size": 90257
+        },
+        "calea-6.49.22.npk": {
+          "size": 24721
+        },
+        "dhcp-6.49.22-arm.npk": {
+          "size": 204945
+        },
+        "dhcp-6.49.22-arm64.npk": {
+          "size": 204945
+        },
+        "dhcp-6.49.22-mipsbe.npk": {
+          "size": 196753
+        },
+        "dhcp-6.49.22-mmips.npk": {
+          "size": 159889
+        },
+        "dhcp-6.49.22-ppc.npk": {
+          "size": 200849
+        },
+        "dhcp-6.49.22-smips.npk": {
+          "size": 155793
+        },
+        "dhcp-6.49.22-tile.npk": {
+          "size": 327825
+        },
+        "dhcp-6.49.22.npk": {
+          "size": 209041
+        },
+        "dude-6.49.22-arm.npk": {
+          "size": 1433745
+        },
+        "dude-6.49.22-arm64.npk": {
+          "size": 1433745
+        },
+        "dude-6.49.22-mmips.npk": {
+          "size": 1400977
+        },
+        "dude-6.49.22-tile.npk": {
+          "size": 1765521
+        },
+        "dude-6.49.22.npk": {
+          "size": 1527953
+        },
+        "dude-install-6.49.22.exe": {
+          "size": 2254352
+        },
+        "gps-6.49.22-arm.npk": {
+          "size": 53393
+        },
+        "gps-6.49.22-arm64.npk": {
+          "size": 53393
+        },
+        "gps-6.49.22-mipsbe.npk": {
+          "size": 53393
+        },
+        "gps-6.49.22-mmips.npk": {
+          "size": 24721
+        },
+        "gps-6.49.22-ppc.npk": {
+          "size": 53393
+        },
+        "gps-6.49.22-tile.npk": {
+          "size": 118929
+        },
+        "gps-6.49.22.npk": {
+          "size": 53393
+        },
+        "hotspot-6.49.22-arm.npk": {
+          "size": 192657
+        },
+        "hotspot-6.49.22-arm64.npk": {
+          "size": 192657
+        },
+        "hotspot-6.49.22-mipsbe.npk": {
+          "size": 184465
+        },
+        "hotspot-6.49.22-mmips.npk": {
+          "size": 147601
+        },
+        "hotspot-6.49.22-ppc.npk": {
+          "size": 196753
+        },
+        "hotspot-6.49.22-smips.npk": {
+          "size": 143505
+        },
+        "hotspot-6.49.22-tile.npk": {
+          "size": 303249
+        },
+        "hotspot-6.49.22.npk": {
+          "size": 221329
+        },
+        "install-image-6.49.22.zip": {
+          "size": 27374421
+        },
+        "iot-6.49.22-arm.npk": {
+          "size": 90257
+        },
+        "iot-6.49.22-arm64.npk": {
+          "size": 135313
+        },
+        "iot-6.49.22-mipsbe.npk": {
+          "size": 209041
+        },
+        "iot-6.49.22-mmips.npk": {
+          "size": 53393
+        },
+        "iot-6.49.22-ppc.npk": {
+          "size": 86161
+        },
+        "iot-6.49.22-smips.npk": {
+          "size": 53393
+        },
+        "iot-6.49.22-tile.npk": {
+          "size": 159889
+        },
+        "iot-6.49.22.npk": {
+          "size": 86161
+        },
+        "ipv6-6.49.22-arm.npk": {
+          "size": 233617
+        },
+        "ipv6-6.49.22-arm64.npk": {
+          "size": 233617
+        },
+        "ipv6-6.49.22-mipsbe.npk": {
+          "size": 237713
+        },
+        "ipv6-6.49.22-mmips.npk": {
+          "size": 204945
+        },
+        "ipv6-6.49.22-ppc.npk": {
+          "size": 454801
+        },
+        "ipv6-6.49.22-smips.npk": {
+          "size": 196753
+        },
+        "ipv6-6.49.22-tile.npk": {
+          "size": 372881
+        },
+        "ipv6-6.49.22.npk": {
+          "size": 462993
+        },
+        "kvm-6.49.22.npk": {
+          "size": 1147025
+        },
+        "lcd-6.49.22-mipsbe.npk": {
+          "size": 57489
+        },
+        "lcd-6.49.22.npk": {
+          "size": 61585
+        },
+        "lora-6.49.22-arm.npk": {
+          "size": 299153
+        },
+        "lora-6.49.22-arm64.npk": {
+          "size": 299153
+        },
+        "lora-6.49.22-mipsbe.npk": {
+          "size": 286865
+        },
+        "lora-6.49.22-mmips.npk": {
+          "size": 254097
+        },
+        "lora-6.49.22-ppc.npk": {
+          "size": 278673
+        },
+        "lora-6.49.22-tile.npk": {
+          "size": 389265
+        },
+        "lora-6.49.22.npk": {
+          "size": 282769
+        },
+        "mikrotik-6.49.22.iso": {
+          "size": 27785216
+        },
+        "mpls-6.49.22-arm.npk": {
+          "size": 98449
+        },
+        "mpls-6.49.22-arm64.npk": {
+          "size": 98449
+        },
+        "mpls-6.49.22-mipsbe.npk": {
+          "size": 98449
+        },
+        "mpls-6.49.22-mmips.npk": {
+          "size": 61585
+        },
+        "mpls-6.49.22-ppc.npk": {
+          "size": 106641
+        },
+        "mpls-6.49.22-smips.npk": {
+          "size": 57489
+        },
+        "mpls-6.49.22-tile.npk": {
+          "size": 172177
+        },
+        "mpls-6.49.22.npk": {
+          "size": 127121
+        },
+        "multicast-6.49.22-arm.npk": {
+          "size": 73873
+        },
+        "multicast-6.49.22-arm64.npk": {
+          "size": 73873
+        },
+        "multicast-6.49.22-mipsbe.npk": {
+          "size": 73873
+        },
+        "multicast-6.49.22-mmips.npk": {
+          "size": 41105
+        },
+        "multicast-6.49.22-ppc.npk": {
+          "size": 73873
+        },
+        "multicast-6.49.22-smips.npk": {
+          "size": 37009
+        },
+        "multicast-6.49.22-tile.npk": {
+          "size": 143505
+        },
+        "multicast-6.49.22.npk": {
+          "size": 73873
+        },
+        "netinstall-6.49.22.tar.gz": {
+          "size": 21020266
+        },
+        "netinstall-6.49.22.zip": {
+          "size": 23303483
+        },
+        "netinstall64-6.49.22.zip": {
+          "size": 23306928
+        },
+        "ntp-6.49.22-arm.npk": {
+          "size": 262289
+        },
+        "ntp-6.49.22-arm64.npk": {
+          "size": 262289
+        },
+        "ntp-6.49.22-mipsbe.npk": {
+          "size": 266385
+        },
+        "ntp-6.49.22-mmips.npk": {
+          "size": 241809
+        },
+        "ntp-6.49.22-ppc.npk": {
+          "size": 245905
+        },
+        "ntp-6.49.22-tile.npk": {
+          "size": 381073
+        },
+        "ntp-6.49.22.npk": {
+          "size": 278673
+        },
+        "openflow-6.49.22-arm.npk": {
+          "size": 77969
+        },
+        "openflow-6.49.22-arm64.npk": {
+          "size": 77969
+        },
+        "openflow-6.49.22-mipsbe.npk": {
+          "size": 77969
+        },
+        "openflow-6.49.22-mmips.npk": {
+          "size": 49297
+        },
+        "openflow-6.49.22-ppc.npk": {
+          "size": 82065
+        },
+        "openflow-6.49.22-smips.npk": {
+          "size": 45201
+        },
+        "openflow-6.49.22-tile.npk": {
+          "size": 155793
+        },
+        "openflow-6.49.22.npk": {
+          "size": 90257
+        },
+        "ppp-6.49.22-arm.npk": {
+          "size": 299153
+        },
+        "ppp-6.49.22-arm64.npk": {
+          "size": 299153
+        },
+        "ppp-6.49.22-mipsbe.npk": {
+          "size": 315537
+        },
+        "ppp-6.49.22-mmips.npk": {
+          "size": 266385
+        },
+        "ppp-6.49.22-ppc.npk": {
+          "size": 462993
+        },
+        "ppp-6.49.22-smips.npk": {
+          "size": 258193
+        },
+        "ppp-6.49.22-tile.npk": {
+          "size": 462993
+        },
+        "ppp-6.49.22.npk": {
+          "size": 462993
+        },
+        "routing-6.49.22-arm.npk": {
+          "size": 127121
+        },
+        "routing-6.49.22-arm64.npk": {
+          "size": 127121
+        },
+        "routing-6.49.22-mipsbe.npk": {
+          "size": 123025
+        },
+        "routing-6.49.22-mmips.npk": {
+          "size": 73873
+        },
+        "routing-6.49.22-ppc.npk": {
+          "size": 127121
+        },
+        "routing-6.49.22-smips.npk": {
+          "size": 69777
+        },
+        "routing-6.49.22-tile.npk": {
+          "size": 196753
+        },
+        "routing-6.49.22.npk": {
+          "size": 127121
+        },
+        "security-6.49.22-arm.npk": {
+          "size": 368785
+        },
+        "security-6.49.22-arm64.npk": {
+          "size": 368785
+        },
+        "security-6.49.22-mipsbe.npk": {
+          "size": 360593
+        },
+        "security-6.49.22-mmips.npk": {
+          "size": 327825
+        },
+        "security-6.49.22-ppc.npk": {
+          "size": 434321
+        },
+        "security-6.49.22-smips.npk": {
+          "size": 323729
+        },
+        "security-6.49.22-tile.npk": {
+          "size": 573585
+        },
+        "security-6.49.22.npk": {
+          "size": 479377
+        },
+        "system-6.49.22-arm.npk": {
+          "size": 8292113
+        },
+        "system-6.49.22-arm64.npk": {
+          "size": 8107793
+        },
+        "system-6.49.22-mipsbe.npk": {
+          "size": 8046701
+        },
+        "system-6.49.22-mmips.npk": {
+          "size": 6706510
+        },
+        "system-6.49.22-ppc.npk": {
+          "size": 13360606
+        },
+        "system-6.49.22-smips.npk": {
+          "size": 5585005
+        },
+        "system-6.49.22-tile.npk": {
+          "size": 13756343
+        },
+        "system-6.49.22.npk": {
+          "size": 16035248
+        },
+        "tr069-client-6.49.22-arm.npk": {
+          "size": 163985
+        },
+        "tr069-client-6.49.22-arm64.npk": {
+          "size": 163985
+        },
+        "tr069-client-6.49.22-mipsbe.npk": {
+          "size": 151697
+        },
+        "tr069-client-6.49.22-mmips.npk": {
+          "size": 127121
+        },
+        "tr069-client-6.49.22-ppc.npk": {
+          "size": 168081
+        },
+        "tr069-client-6.49.22-smips.npk": {
+          "size": 123025
+        },
+        "tr069-client-6.49.22-tile.npk": {
+          "size": 278673
+        },
+        "tr069-client-6.49.22.npk": {
+          "size": 180369
+        },
+        "ups-6.49.22-arm.npk": {
+          "size": 69777
+        },
+        "ups-6.49.22-arm64.npk": {
+          "size": 69777
+        },
+        "ups-6.49.22-mipsbe.npk": {
+          "size": 65681
+        },
+        "ups-6.49.22-mmips.npk": {
+          "size": 37009
+        },
+        "ups-6.49.22-ppc.npk": {
+          "size": 65681
+        },
+        "ups-6.49.22-tile.npk": {
+          "size": 139409
+        },
+        "ups-6.49.22.npk": {
+          "size": 69777
+        },
+        "user-manager-6.49.22-arm.npk": {
+          "size": 888977
+        },
+        "user-manager-6.49.22-arm64.npk": {
+          "size": 888977
+        },
+        "user-manager-6.49.22-mipsbe.npk": {
+          "size": 909457
+        },
+        "user-manager-6.49.22-mmips.npk": {
+          "size": 921745
+        },
+        "user-manager-6.49.22-ppc.npk": {
+          "size": 909457
+        },
+        "user-manager-6.49.22-tile.npk": {
+          "size": 1282193
+        },
+        "user-manager-6.49.22.npk": {
+          "size": 1007761
+        },
+        "wireless-6.49.22-arm.npk": {
+          "size": 2818193
+        },
+        "wireless-6.49.22-arm64.npk": {
+          "size": 2670737
+        },
+        "wireless-6.49.22-mipsbe.npk": {
+          "size": 2789521
+        },
+        "wireless-6.49.22-mmips.npk": {
+          "size": 2584721
+        },
+        "wireless-6.49.22-ppc.npk": {
+          "size": 2535569
+        },
+        "wireless-6.49.22-smips.npk": {
+          "size": 737425
+        },
+        "wireless-6.49.22-tile.npk": {
+          "size": 1847441
+        },
+        "wireless-6.49.22.npk": {
+          "size": 2551953
         }
       },
       "architectures": [
@@ -3920,548 +4462,6 @@
           "size": 1847441
         },
         "wireless-6.49.18.npk": {
-          "size": 2551953
-        }
-      },
-      "architectures": [
-        "arm64",
-        "arm",
-        "mipsbe",
-        "mmips",
-        "ppc",
-        "smips",
-        "tile",
-        "x86"
-      ]
-    },
-    "6.49.13": {
-      "files": {
-        "advanced-tools-6.49.13-arm.npk": {
-          "size": 102545
-        },
-        "advanced-tools-6.49.13-arm64.npk": {
-          "size": 102545
-        },
-        "advanced-tools-6.49.13-mipsbe.npk": {
-          "size": 102545
-        },
-        "advanced-tools-6.49.13-mmips.npk": {
-          "size": 69777
-        },
-        "advanced-tools-6.49.13-ppc.npk": {
-          "size": 102545
-        },
-        "advanced-tools-6.49.13-smips.npk": {
-          "size": 69777
-        },
-        "advanced-tools-6.49.13-tile.npk": {
-          "size": 196753
-        },
-        "advanced-tools-6.49.13.npk": {
-          "size": 295777
-        },
-        "all_packages-arm-6.49.13.zip": {
-          "size": 16162346
-        },
-        "all_packages-arm64-6.49.13.zip": {
-          "size": 15879811
-        },
-        "all_packages-mipsbe-6.49.13.zip": {
-          "size": 16613714
-        },
-        "all_packages-mmips-6.49.13.zip": {
-          "size": 13778040
-        },
-        "all_packages-ppc-6.49.13.zip": {
-          "size": 19964381
-        },
-        "all_packages-smips-6.49.13.zip": {
-          "size": 7849926
-        },
-        "all_packages-tile-6.49.13.zip": {
-          "size": 23114279
-        },
-        "all_packages-x86-6.49.13.zip": {
-          "size": 25860152
-        },
-        "calea-6.49.13-arm.npk": {
-          "size": 20625
-        },
-        "calea-6.49.13-arm64.npk": {
-          "size": 20625
-        },
-        "calea-6.49.13-mipsbe.npk": {
-          "size": 20625
-        },
-        "calea-6.49.13-mmips.npk": {
-          "size": 20625
-        },
-        "calea-6.49.13-ppc.npk": {
-          "size": 20625
-        },
-        "calea-6.49.13-tile.npk": {
-          "size": 90257
-        },
-        "calea-6.49.13.npk": {
-          "size": 24721
-        },
-        "dhcp-6.49.13-arm.npk": {
-          "size": 204945
-        },
-        "dhcp-6.49.13-arm64.npk": {
-          "size": 204945
-        },
-        "dhcp-6.49.13-mipsbe.npk": {
-          "size": 196753
-        },
-        "dhcp-6.49.13-mmips.npk": {
-          "size": 159889
-        },
-        "dhcp-6.49.13-ppc.npk": {
-          "size": 200849
-        },
-        "dhcp-6.49.13-smips.npk": {
-          "size": 155793
-        },
-        "dhcp-6.49.13-tile.npk": {
-          "size": 327825
-        },
-        "dhcp-6.49.13.npk": {
-          "size": 209041
-        },
-        "dude-6.49.13-arm.npk": {
-          "size": 1433745
-        },
-        "dude-6.49.13-arm64.npk": {
-          "size": 1433745
-        },
-        "dude-6.49.13-mmips.npk": {
-          "size": 1405073
-        },
-        "dude-6.49.13-tile.npk": {
-          "size": 1769617
-        },
-        "dude-6.49.13.npk": {
-          "size": 1532049
-        },
-        "dude-install-6.49.13.exe": {
-          "size": 2254648
-        },
-        "gps-6.49.13-arm.npk": {
-          "size": 53393
-        },
-        "gps-6.49.13-arm64.npk": {
-          "size": 53393
-        },
-        "gps-6.49.13-mipsbe.npk": {
-          "size": 53393
-        },
-        "gps-6.49.13-mmips.npk": {
-          "size": 24721
-        },
-        "gps-6.49.13-ppc.npk": {
-          "size": 53393
-        },
-        "gps-6.49.13-tile.npk": {
-          "size": 118929
-        },
-        "gps-6.49.13.npk": {
-          "size": 53393
-        },
-        "hotspot-6.49.13-arm.npk": {
-          "size": 192657
-        },
-        "hotspot-6.49.13-arm64.npk": {
-          "size": 192657
-        },
-        "hotspot-6.49.13-mipsbe.npk": {
-          "size": 184465
-        },
-        "hotspot-6.49.13-mmips.npk": {
-          "size": 147601
-        },
-        "hotspot-6.49.13-ppc.npk": {
-          "size": 196753
-        },
-        "hotspot-6.49.13-smips.npk": {
-          "size": 143505
-        },
-        "hotspot-6.49.13-tile.npk": {
-          "size": 303249
-        },
-        "hotspot-6.49.13.npk": {
-          "size": 221329
-        },
-        "install-image-6.49.13.zip": {
-          "size": 27371678
-        },
-        "iot-6.49.13-arm.npk": {
-          "size": 90257
-        },
-        "iot-6.49.13-arm64.npk": {
-          "size": 135313
-        },
-        "iot-6.49.13-mipsbe.npk": {
-          "size": 209041
-        },
-        "iot-6.49.13-mmips.npk": {
-          "size": 53393
-        },
-        "iot-6.49.13-ppc.npk": {
-          "size": 86161
-        },
-        "iot-6.49.13-smips.npk": {
-          "size": 53393
-        },
-        "iot-6.49.13-tile.npk": {
-          "size": 159889
-        },
-        "iot-6.49.13.npk": {
-          "size": 86161
-        },
-        "ipv6-6.49.13-arm.npk": {
-          "size": 233617
-        },
-        "ipv6-6.49.13-arm64.npk": {
-          "size": 233617
-        },
-        "ipv6-6.49.13-mipsbe.npk": {
-          "size": 237713
-        },
-        "ipv6-6.49.13-mmips.npk": {
-          "size": 204945
-        },
-        "ipv6-6.49.13-ppc.npk": {
-          "size": 454801
-        },
-        "ipv6-6.49.13-smips.npk": {
-          "size": 196753
-        },
-        "ipv6-6.49.13-tile.npk": {
-          "size": 372881
-        },
-        "ipv6-6.49.13.npk": {
-          "size": 462993
-        },
-        "kvm-6.49.13.npk": {
-          "size": 1147025
-        },
-        "lcd-6.49.13-mipsbe.npk": {
-          "size": 57489
-        },
-        "lcd-6.49.13.npk": {
-          "size": 61585
-        },
-        "lora-6.49.13-arm.npk": {
-          "size": 299153
-        },
-        "lora-6.49.13-arm64.npk": {
-          "size": 299153
-        },
-        "lora-6.49.13-mipsbe.npk": {
-          "size": 286865
-        },
-        "lora-6.49.13-mmips.npk": {
-          "size": 254097
-        },
-        "lora-6.49.13-ppc.npk": {
-          "size": 278673
-        },
-        "lora-6.49.13-tile.npk": {
-          "size": 389265
-        },
-        "lora-6.49.13.npk": {
-          "size": 282769
-        },
-        "mikrotik-6.49.13.iso": {
-          "size": 27785216
-        },
-        "mpls-6.49.13-arm.npk": {
-          "size": 98449
-        },
-        "mpls-6.49.13-arm64.npk": {
-          "size": 98449
-        },
-        "mpls-6.49.13-mipsbe.npk": {
-          "size": 98449
-        },
-        "mpls-6.49.13-mmips.npk": {
-          "size": 61585
-        },
-        "mpls-6.49.13-ppc.npk": {
-          "size": 110737
-        },
-        "mpls-6.49.13-smips.npk": {
-          "size": 57489
-        },
-        "mpls-6.49.13-tile.npk": {
-          "size": 172177
-        },
-        "mpls-6.49.13.npk": {
-          "size": 127121
-        },
-        "multicast-6.49.13-arm.npk": {
-          "size": 73873
-        },
-        "multicast-6.49.13-arm64.npk": {
-          "size": 73873
-        },
-        "multicast-6.49.13-mipsbe.npk": {
-          "size": 73873
-        },
-        "multicast-6.49.13-mmips.npk": {
-          "size": 41105
-        },
-        "multicast-6.49.13-ppc.npk": {
-          "size": 73873
-        },
-        "multicast-6.49.13-smips.npk": {
-          "size": 37009
-        },
-        "multicast-6.49.13-tile.npk": {
-          "size": 143505
-        },
-        "multicast-6.49.13.npk": {
-          "size": 73873
-        },
-        "netinstall-6.49.13.tar.gz": {
-          "size": 21014491
-        },
-        "netinstall-6.49.13.zip": {
-          "size": 23292879
-        },
-        "netinstall64-6.49.13.zip": {
-          "size": 23301369
-        },
-        "ntp-6.49.13-arm.npk": {
-          "size": 262289
-        },
-        "ntp-6.49.13-arm64.npk": {
-          "size": 262289
-        },
-        "ntp-6.49.13-mipsbe.npk": {
-          "size": 266385
-        },
-        "ntp-6.49.13-mmips.npk": {
-          "size": 241809
-        },
-        "ntp-6.49.13-ppc.npk": {
-          "size": 245905
-        },
-        "ntp-6.49.13-tile.npk": {
-          "size": 381073
-        },
-        "ntp-6.49.13.npk": {
-          "size": 278673
-        },
-        "openflow-6.49.13-arm.npk": {
-          "size": 77969
-        },
-        "openflow-6.49.13-arm64.npk": {
-          "size": 77969
-        },
-        "openflow-6.49.13-mipsbe.npk": {
-          "size": 77969
-        },
-        "openflow-6.49.13-mmips.npk": {
-          "size": 49297
-        },
-        "openflow-6.49.13-ppc.npk": {
-          "size": 82065
-        },
-        "openflow-6.49.13-smips.npk": {
-          "size": 45201
-        },
-        "openflow-6.49.13-tile.npk": {
-          "size": 155793
-        },
-        "openflow-6.49.13.npk": {
-          "size": 90257
-        },
-        "ppp-6.49.13-arm.npk": {
-          "size": 299153
-        },
-        "ppp-6.49.13-arm64.npk": {
-          "size": 299153
-        },
-        "ppp-6.49.13-mipsbe.npk": {
-          "size": 315537
-        },
-        "ppp-6.49.13-mmips.npk": {
-          "size": 266385
-        },
-        "ppp-6.49.13-ppc.npk": {
-          "size": 462993
-        },
-        "ppp-6.49.13-smips.npk": {
-          "size": 258193
-        },
-        "ppp-6.49.13-tile.npk": {
-          "size": 462993
-        },
-        "ppp-6.49.13.npk": {
-          "size": 462993
-        },
-        "routing-6.49.13-arm.npk": {
-          "size": 127121
-        },
-        "routing-6.49.13-arm64.npk": {
-          "size": 127121
-        },
-        "routing-6.49.13-mipsbe.npk": {
-          "size": 123025
-        },
-        "routing-6.49.13-mmips.npk": {
-          "size": 73873
-        },
-        "routing-6.49.13-ppc.npk": {
-          "size": 127121
-        },
-        "routing-6.49.13-smips.npk": {
-          "size": 69777
-        },
-        "routing-6.49.13-tile.npk": {
-          "size": 196753
-        },
-        "routing-6.49.13.npk": {
-          "size": 127121
-        },
-        "security-6.49.13-arm.npk": {
-          "size": 368785
-        },
-        "security-6.49.13-arm64.npk": {
-          "size": 368785
-        },
-        "security-6.49.13-mipsbe.npk": {
-          "size": 360593
-        },
-        "security-6.49.13-mmips.npk": {
-          "size": 327825
-        },
-        "security-6.49.13-ppc.npk": {
-          "size": 434321
-        },
-        "security-6.49.13-smips.npk": {
-          "size": 323729
-        },
-        "security-6.49.13-tile.npk": {
-          "size": 573585
-        },
-        "security-6.49.13.npk": {
-          "size": 479377
-        },
-        "system-6.49.13-arm.npk": {
-          "size": 8279572
-        },
-        "system-6.49.13-arm64.npk": {
-          "size": 8099353
-        },
-        "system-6.49.13-mipsbe.npk": {
-          "size": 8042389
-        },
-        "system-6.49.13-mmips.npk": {
-          "size": 6702094
-        },
-        "system-6.49.13-ppc.npk": {
-          "size": 13351662
-        },
-        "system-6.49.13-smips.npk": {
-          "size": 5580693
-        },
-        "system-6.49.13-tile.npk": {
-          "size": 13748711
-        },
-        "system-6.49.13.npk": {
-          "size": 16030656
-        },
-        "tr069-client-6.49.13-arm.npk": {
-          "size": 163985
-        },
-        "tr069-client-6.49.13-arm64.npk": {
-          "size": 163985
-        },
-        "tr069-client-6.49.13-mipsbe.npk": {
-          "size": 151697
-        },
-        "tr069-client-6.49.13-mmips.npk": {
-          "size": 127121
-        },
-        "tr069-client-6.49.13-ppc.npk": {
-          "size": 168081
-        },
-        "tr069-client-6.49.13-smips.npk": {
-          "size": 123025
-        },
-        "tr069-client-6.49.13-tile.npk": {
-          "size": 278673
-        },
-        "tr069-client-6.49.13.npk": {
-          "size": 180369
-        },
-        "ups-6.49.13-arm.npk": {
-          "size": 69777
-        },
-        "ups-6.49.13-arm64.npk": {
-          "size": 69777
-        },
-        "ups-6.49.13-mipsbe.npk": {
-          "size": 65681
-        },
-        "ups-6.49.13-mmips.npk": {
-          "size": 37009
-        },
-        "ups-6.49.13-ppc.npk": {
-          "size": 65681
-        },
-        "ups-6.49.13-tile.npk": {
-          "size": 139409
-        },
-        "ups-6.49.13.npk": {
-          "size": 69777
-        },
-        "user-manager-6.49.13-arm.npk": {
-          "size": 888977
-        },
-        "user-manager-6.49.13-arm64.npk": {
-          "size": 888977
-        },
-        "user-manager-6.49.13-mipsbe.npk": {
-          "size": 909457
-        },
-        "user-manager-6.49.13-mmips.npk": {
-          "size": 921745
-        },
-        "user-manager-6.49.13-ppc.npk": {
-          "size": 909457
-        },
-        "user-manager-6.49.13-tile.npk": {
-          "size": 1282193
-        },
-        "user-manager-6.49.13.npk": {
-          "size": 1007761
-        },
-        "wireless-6.49.13-arm.npk": {
-          "size": 2818193
-        },
-        "wireless-6.49.13-arm64.npk": {
-          "size": 2670737
-        },
-        "wireless-6.49.13-mipsbe.npk": {
-          "size": 2785425
-        },
-        "wireless-6.49.13-mmips.npk": {
-          "size": 2584721
-        },
-        "wireless-6.49.13-ppc.npk": {
-          "size": 2535569
-        },
-        "wireless-6.49.13-smips.npk": {
-          "size": 733329
-        },
-        "wireless-6.49.13-tile.npk": {
-          "size": 1847441
-        },
-        "wireless-6.49.13.npk": {
           "size": 2551953
         }
       },
